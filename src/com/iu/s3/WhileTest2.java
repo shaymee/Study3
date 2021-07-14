@@ -55,9 +55,9 @@ public class WhileTest2 {
 			int select = sc.nextInt();
 			
 			if(select==1) {
-			System.out.println("아이디를 입력해주세요");	
+			System.out.println("아이디 입력");	
 			yId = sc.nextInt();
-			System.out.println("패스워드를 입력해주세요");
+			System.out.println("패스워드 입력");
 			yPw = sc.nextInt();			
 			
 				if(yId == id && yPw == pw) {

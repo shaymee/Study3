@@ -86,29 +86,29 @@ public class WhileTest2 {
 			System.out.println("당신의 시작레벨은 1입니다. 사냥을 시작합니다");	
 			
 			for(level=1;level<=num;level++) {	
-				int yLev=level;		
+		
 				int monster=0;
 				
 				if(level==num) {
 					System.out.println("@@@ 게임 클리어 @@@");
-					System.out.println("최종레벨: "+yLev);
+					System.out.println("최종레벨: "+level);
 					int sum=0;
-					for(int i=1;i<=yLev/5;i=i+1) {
+					for(int i=1;i<=level/5;i=i+1) {
 						sum=sum+i;						
-						if(i ==yLev/5)
+						if(i == level/5)
 							System.out.println("최종골드: "+sum*1000);
 				}
 				
 					break;
 				}
 
-				if(yLev<num) {
+				if(level<num) {
 					for(monster=1;monster<=level*3;monster++) {
 						System.out.println(monster+"번째 몬스터 처치");											
 				}
-					System.out.println("축하합니다! "+(yLev+1)+" 레벨 달성!");
-						if(yLev%5 == 4) {
-							int getLev = yLev+1;
+					System.out.println("축하합니다! "+(level+1)+" 레벨 달성!");
+						if(level%5 == 4) {
+							int getLev = level+1;
 							int gold = getLev*200;		
 							
 							System.out.println(getLev+" 레벨 특전: "+"+"+gold+" Gold 지급");

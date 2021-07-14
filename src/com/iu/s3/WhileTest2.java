@@ -90,7 +90,7 @@ public class WhileTest2 {
 				int monster=0;
 				
 				if(level==num) {
-					System.out.println("@@@ 게임 클리어 @@@");
+					System.out.println("@@@@ 게임 클리어 @@@@");
 					System.out.println("최종레벨: "+level);
 					int sum=0;
 					for(int i=1;i<=level/5;i=i+1) {

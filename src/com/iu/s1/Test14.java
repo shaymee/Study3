@@ -1,4 +1,4 @@
-package com.google.s2.zz;
+package com.iu.s1;
 
 public class Test14 { /** switch문의 응용 문제 */
 

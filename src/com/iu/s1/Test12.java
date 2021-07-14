@@ -1,4 +1,4 @@
-package com.google.s2.zz;
+package com.iu.s1;
 
 public class Test12 { /** switch문 공부 */
 

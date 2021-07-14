@@ -34,7 +34,7 @@ public class WhileTest1 {
 				check = !check; // check를 false로 써서 while문 종료하는 방법밖에 안남음2
 				break;
 			}
-			
+//			
 			
 //			if(select==1) {
 //				System.out.println("회원가입 코드 진행");				

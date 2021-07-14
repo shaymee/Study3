@@ -12,7 +12,7 @@ public class Calculating {
 		}
 		System.out.println(sum);			
 			
-		
+//		
 	}
 
 }

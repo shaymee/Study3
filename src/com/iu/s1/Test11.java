@@ -45,7 +45,7 @@ public class Test11 {
 			System.out.println("부여학점: "+"F");
 		}
 		
-		System.out.println("End");
+		System.out.println("End!!");
 
 	}
 

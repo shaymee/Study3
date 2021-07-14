@@ -49,7 +49,6 @@ public class WhileTest2 {
 		int yId = 0;
 		int yPw = 0;
 		boolean flag = true;
-		//boolean check = yId==id && yPw==pw;
 		
 		while(flag) {
 			System.out.println("1번-로그인, 2번-게임 종료");
@@ -89,15 +88,14 @@ public class WhileTest2 {
 			for(level=1;level<=num;level++) {	
 				int yLev=level;		
 				int monster=0;
-
 				
 				if(level==num) {
-					System.out.println("!!! 게임 클리어 !!!");
+					System.out.println("@@@ 게임 클리어 @@@");
 					System.out.println("최종레벨: "+yLev);
 					int sum=0;
-					for(int i=1;i<=(yLev+1)/5;i=i+1) {
+					for(int i=1;i<=yLev/5;i=i+1) {
 						sum=sum+i;						
-						if(i ==(yLev+1)/5)
+						if(i ==yLev/5)
 							System.out.println("최종골드: "+sum*1000);
 				}
 				
@@ -110,10 +108,10 @@ public class WhileTest2 {
 				}
 					System.out.println("축하합니다! "+(yLev+1)+" 레벨 달성!");
 						if(yLev%5 == 4) {
-							int getlev = yLev+1;
-							int gold = getlev*200;		
+							int getLev = yLev+1;
+							int gold = getLev*200;		
 							
-							System.out.println(getlev+" 레벨 특전: "+"+"+gold+" Gold 지급");
+							System.out.println(getLev+" 레벨 특전: "+"+"+gold+" Gold 지급");
 										
 						}						
 			}						

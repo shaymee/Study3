@@ -117,7 +117,10 @@ public class WhileTest2 {
 			}						
 		}					
 		}
-		System.out.println("fin.");
+		System.out.println("fin."); // 정리 다시
 
 	}
 }
+// 수강생 코드리뷰 강사님 첨언
+// int A, B; // 이런 것도 있음
+// 문자열은 == 안된다고 하심 EX) String state ="login"; ---> while(state == "login") =>false나온데 : whileTest3으로 ㄱㄱ

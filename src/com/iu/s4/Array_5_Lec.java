@@ -100,6 +100,7 @@ public class Array_5_Lec {
 			}
 			
 		}
+		System.out.println("fin.");
 	}
 
 }

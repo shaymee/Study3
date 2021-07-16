@@ -33,5 +33,7 @@ public class Array_4 {
 			// 코드를 짤 때 , 나중에 데이터 바뀌거나 수정이 일어났을 때를 대비해야함
 		} // 이 for문도 main메서드 stack 안에 있는 것. for문도 stack임
 		
+		
+		System.out.println("fin.");
 	}
 }

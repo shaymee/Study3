@@ -65,7 +65,7 @@ public class Array_1 {
 		
 		
 		
-		System.out.println("fin.");
+		System.out.println("fin. ");
 
 	}
 

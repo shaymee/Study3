@@ -23,6 +23,8 @@ public class Array_2 {
 		for(int i=0;i<nums.length;i++) // for문의 조건식에 배열의 크기를 담는 변수를 입력(세련된 방법)
 		System.out.println(nums[i]);		
 		
+		
+		System.out.println("fin. ");
 	}
 
 }

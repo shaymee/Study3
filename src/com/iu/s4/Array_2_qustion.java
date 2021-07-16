@@ -27,6 +27,8 @@ public class Array_2_qustion {
 		// 총점과 평균 출력
 		System.out.println("총점 : "+total);
 		System.out.println("평균 : "+avg);
+		
+		System.out.println("fin. ");
 }
 
 }

@@ -44,6 +44,8 @@ public class Array_3 {
 		a1 = 1;
 		
 		System.out.println(a2); // 10 or 1 ? 내생각엔 1 -> 땡ㅠㅠ  */
+		
+		System.out.println("fin. ");
 	}
 
 }

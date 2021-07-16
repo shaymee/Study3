@@ -77,7 +77,7 @@ public class Array_5 { /** 이건 혼자 꼭 다시 해봐.... */
 //			
 //		}
 		
-		
+		System.out.println("fin.");
 	}
 
 }

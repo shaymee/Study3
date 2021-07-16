@@ -104,7 +104,7 @@ public class Array_8 {
 				continue;
 			}
 				System.out.println("종료");	
-				System.out.println("==fin.==");
+				System.out.println("==fin.===");
 		}
 
 	}

@@ -40,5 +40,8 @@ public class Array_7 {
 		
 		
 		System.out.println("FINISH"); */
+
+
+		System.out.println("fin.");
 	}
 }

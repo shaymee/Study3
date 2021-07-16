@@ -23,6 +23,8 @@ public class Array_4_solvingOfS {
 			System.out.println(ar1[i]); 
 		} // 얕은 복사로 ar2[]의 주소를 참조하게 됨
 
+		
+		System.out.println("fin. ");
 	}
 
 }

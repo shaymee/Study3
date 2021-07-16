@@ -30,6 +30,6 @@ public class Array_6 {
 			
 			
 	}
-
+		System.out.println("fin.");
 	}
 }

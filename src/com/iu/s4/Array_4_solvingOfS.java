@@ -4,7 +4,7 @@ public class Array_4_solvingOfS {
 
 	public static void main(String[] args) {
 
-		int[] ar1 = new int[4];	
+		int[] ar1 = new int[3];	
 		
 		for(int i=0;i<ar1.length;i++) {
 			ar1[i]=i+1;

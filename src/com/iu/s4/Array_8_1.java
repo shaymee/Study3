@@ -31,25 +31,28 @@ public class Array_8_1 {
 				System.out.println("아이디 입력");
 				yid=sc.nextInt();
 				System.out.println("비밀번호 입력");
-				ypw=sc.nextInt();
+				ypw=sc.nextInt();	
 				
-				for(int i=0;i<ids.length;i++) {
-					boolean jud = yid == ids[i] && ypw == pws[i];
-					if(jud) {					
-						System.out.println("로그인 되셨습니다");						
-						turn=false;		
-						
-						break;												
+				boolean idd=false;
+				boolean pww=false;
+
+				for(int i=0;i<ids.length;i++) { 
+					if(ids[i]==yid) {
+						idd=true;
+						if(pws[i]==ypw) {
+							pww=true;
+						}
 					} 
 				}
+				if(idd&&pww) {
+					System.out.println("로그인 성공");
+					turn=false;
+				} else {
+					System.out.println("로그인 실패");
+					System.out.println("메인페이지 복귀");
+					continue;
+				}
 					
-						System.out.println("로그인 실패. 메인페이지로 복귀");
-						
-						continue;
-					
-				
-				
-				
 			} else if(select==2) {
 				boolean prodId = true;
 				
@@ -67,16 +70,20 @@ public class Array_8_1 {
 						} else { 
 
 							int [] idtwo = new int[ids.length+1];
+							int [] pwtwo = new int[pws.length+1];
 							
 							System.out.println("생성할 비밀번호 입력");
 							npw = sc.nextInt();
-							idtwo[ids.length] = npw;
+							idtwo[ids.length] = nid;
+							pwtwo[pws.length] = npw;
 							
 							for(i=0;i<ids.length;i++) {
 								idtwo[i]=ids[i];
+								pwtwo[i]=pws[i];
 							}
 							
 							ids = idtwo;
+							pws = pwtwo;
 							
 							System.out.println("아이디 생성 완료");
 														
@@ -93,7 +100,7 @@ public class Array_8_1 {
 			
 				} else {
 					System.out.println("종료");		
-					turn = false;
+					break;
 	
 				}
 			

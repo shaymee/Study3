@@ -109,7 +109,7 @@ public class Array_8_1 {
 		
 		
 		
-		System.out.println("===fin.===");
+		System.out.println("===MOOYAHO~===");
 		
 	}
 

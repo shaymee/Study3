@@ -51,6 +51,7 @@ public class Array_8_1 {
 					
 			} else if(select==2) {
 				boolean prodId = true;
+				boolean prod = false;
 				
 				while(prodId) {
 				

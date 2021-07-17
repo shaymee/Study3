@@ -114,12 +114,12 @@ public class Array_8_2 {
 				}
 
 			
-			} else if(select==3) {
+			} else {
 				System.out.println("==프로그램 종료==");		
 				
 				break;
 	
-					}
+			}
 				
 			
 		} else if(login) {
@@ -130,11 +130,12 @@ public class Array_8_2 {
 			select2=sc.nextInt();
 			
 			if(select2==1) { // 1.로그아웃 페이지
-				turn = true;
+//				turn = true;   // 없어도 되는 코드
+				
 				System.out.println("로그아웃 되셨습니다");
 				
 				login = false;
-				continue;
+				continue; 	// 이것도 없어도 되는 코드겠지??
 				
 			} else if(select2==2) { // 2.회원탈퇴 페이지
 				int[] wdid = new int[ids.length-1];
@@ -160,14 +161,13 @@ public class Array_8_2 {
 					
 					login=false;
 					
-					continue;
+					continue; 	 // 이것도 없어도 되는 코드겠지??
 				
 			} else {
 				System.out.println("==프로그램 종료==");	
 				break;
 	
-		}
-		
+			}
 		}
 		}
 		

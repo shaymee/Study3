@@ -178,7 +178,7 @@ public class Array_8_2 {
 		
 		
 		
-		System.out.println("=== MOO~YA~HO~~===");
+		System.out.println("=== MOO~ YA~ HO~===");
 		
 	}
 

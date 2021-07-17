@@ -1,18 +1,14 @@
 package com.iu.s4;
 
-import java.util.Scanner;		
+import java.util.Scanner;
 
 public class Array_8_1 {
 
 	public static void main(String[] args) {
-		//1.로그인
-		//2.회원가입(단, 회원가입시 같은 아이디가 있을 때를 처리해야함)
-		//3.종료
+		Scanner sc = new Scanner(System.in);
 		
 		int [] ids = {1111, 2222, 3333, 4444};
 		int [] pws = {1112, 2223, 3334, 4445};
-		
-		Scanner sc = new Scanner(System.in);
 		
 		int select = 0;
 		int yid = 0;
@@ -63,21 +59,30 @@ public class Array_8_1 {
 				
 					for(int i=0;i<ids.length;i++) {
 						if(nid==ids[i]) {
+							prod=true;
+						}
+					}	
+						
+						if(prod) {
 							System.out.println("아이디 중복");
 							System.out.println("다시 입력");
 							
-							break;
-						} else { 
-
-							int [] idtwo = new int[ids.length+1];
-							int [] pwtwo = new int[pws.length+1];
+							prod=false;
 							
+							continue;
+							
+						} else {
+							System.out.println("=사용가능한 아이디=");
 							System.out.println("생성할 비밀번호 입력");
 							npw = sc.nextInt();
+							
+							int[] idtwo = new int[ids.length+1];
+							int[] pwtwo = new int[pws.length+1];
+							
 							idtwo[ids.length] = nid;
 							pwtwo[pws.length] = npw;
 							
-							for(i=0;i<ids.length;i++) {
+							for(int i=0;i<ids.length;i++) {
 								idtwo[i]=ids[i];
 								pwtwo[i]=pws[i];
 							}
@@ -85,16 +90,15 @@ public class Array_8_1 {
 							ids = idtwo;
 							pws = pwtwo;
 							
-							System.out.println("아이디 생성 완료");
-														
-							prodId = false;
+							System.out.println("=아이디 생성 완료=");
 							
 							break;
 							
+							
+							
 						}
-						
-						
-					}
+					
+					
 						
 			}
 			
@@ -111,6 +115,7 @@ public class Array_8_1 {
 		
 		System.out.println("===MOOYAHO~===");
 		
+
 	}
 
 }
